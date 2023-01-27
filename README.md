@@ -19,3 +19,4 @@ Step 2:- Adjusting the OCR engine parameters
 Step 3:- Resize the image
          Screenshots are actually bigger in resolution resizing the image will give us
          the better results
+Step 4:- Output in txt file
