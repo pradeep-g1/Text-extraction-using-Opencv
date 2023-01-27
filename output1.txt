@@ -1,0 +1,56 @@
+get display (board):
+
+for i in board:
+
+for element in i:
+
+if element:
+
+print("K",end="_ ")
+
+Cayo
+
+print("X",end="_")
+
+print()
+
+ora
+
+isValid(board,r,c):
+
+if r>=0 and r<len(board) and c>=@ and c<len(board)
+
+return True
+
+return False
+
+ora
+
+isSafe(board,r,c):
+
+if isValid(board,r-2,c-1):
+
+if board[r-2][c-1]:
+
+return False
+
+if isValid(board,r-2,c+1):
+
+if board[r-2][c+1]:
+
+return False
+
+if isValid(board,r-1,c+2):
+
+if board[r-1][c+2]:
+
+return False
+
+if isValid(board,r-1,c-2):
+
+if board[r-1][c-2]:
+
+return False
+
+return True
+
